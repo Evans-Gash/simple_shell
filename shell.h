@@ -118,7 +118,7 @@ void find_cmd(info_t *);
 void fork_cmd(info_t *);
 
 /* path_resolution.c */
-int is_cmd(info_t *, charB *);
+int is_cmd(info_t *, char *);
 char *dup_chars(char *, int, int);
 char *find_path(info_t *, char *, char *);
 
